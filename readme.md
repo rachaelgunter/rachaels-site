@@ -1,6 +1,6 @@
-#Rachael's Personal Site
+# Rachael's Personal Site
 
-###How to Deploy
+### How to Deploy
 
 1. Go to project root
 
