@@ -4,8 +4,10 @@
 
 1. Go to project root
 
-2. Run command
+2. Run commands
 ```
+$ firebase logout
+$ firebase login
 $ firebase deploy
 ```
 
