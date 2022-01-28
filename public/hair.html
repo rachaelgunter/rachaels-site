@@ -2,6 +2,27 @@
 
 <html lang="en">
 <head>
+  <style>
+    .container {
+	display: block;
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+ 
+.small {
+	width: 180px;
+	height: auto;
+	position: relative;
+	margin: 3px;
+	border-radius: 5px;
+}
+ 
+.small:hover {
+	-webkit-transform: scale(1.03, 1.03);
+	transform: scale(1.03, 1.03);
+}
+  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,6 +36,86 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
   </head>
+
+  <div class="container">
+    <!-- Thumbnails -->
+       <a href="#img1"> 
+       <img class="small" src="img/image-1.jpg">
+       </a>
+       <a href="#img2"> 
+       <img class="small" src="img/image-2.jpg">
+       </a>
+       <a href="#img3"> 
+       <img class="small" src="img/image-3.png">
+       </a>
+       <a href="#img4"> 
+       <img class="small" src="img/image-4.jpg">
+       </a>
+       <a href="#img5"> 
+       <img class="small" src="img/image-5.jpg">
+       </a>
+       <a href="#img6"> 
+       <img class="small" src="img/image-6.jpg">
+       </a>
+       <a href="#img7"> 
+       <img class="small" src="img/image-7.jpg">
+       </a>
+       <a href="#img8"> 
+       <img class="small" src="img/image-1.jpg">
+       </a>
+      
+     <!--Lightboxes-->
+       <a href="#_" class="lightbox" id="img1">
+          <div>
+             <img src="img/image-1.jpg"/> 
+             <p> The mighty Bear </p>
+          </div>
+       </a>
+       <a href="#_" class="lightbox" id="img2">
+          <div>
+             <img src="img/image-2.jpg"/> 
+             <p> The Racing</p>
+          </div>
+       </a>
+       <a href="#_" class="lightbox" id="img3">
+          <div>
+             <img src="img/image-3.png"/> 
+             <p> The Light </p>
+          </div>
+       </a>
+       <a href="#_" class="lightbox" id="img4">
+          <div>
+             <img src="img/image-4.jpg"/> 
+             <p> Cute Bird</p>
+          </div>
+       </a>
+       <a href="#_" class="lightbox" id="img5">
+          <div>
+             <img src="img/image-5.jpg"/> 
+             <p> The Car</p>
+          </div>
+       </a>
+       <a href="#_" class="lightbox" id="img6">
+          <div>
+             <img src="img/image-6.jpg"/> 
+             <p> The Fox</p>
+          </div>
+       </a>
+       <a href="#_" class="lightbox" id="img7">
+          <div>
+             <img src="img/image-7.jpg"/> 
+             <p> The War</p>
+          </div>
+       </a>
+       <a href="#_" class="lightbox" id="img8">
+          <div>
+             <img src="img/image-1.jpg"/> 
+             <p> The House</p>
+          </div>
+       </a>
+    </div>
+
+
 
   </body>
   </html>
